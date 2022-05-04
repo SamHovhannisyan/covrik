@@ -1,0 +1,19 @@
+{
+  "home_link": "Գլխավոր",
+  "courses_link": "Դասընթացներ",
+  "product_link": "Արտադրանք",
+  "create_link": "Create your own",
+  "about_link": "Մեր մասին",
+  "blog_link": "Բլոգ",
+  "contact_link": "Կապ",
+  "contact": {
+    "name": "Անուն",
+    "surname": "Ազգանուն",
+    "phone": "Հեռախոսահամար",
+    "email": "Էլ․ հասցե",
+    "your_message": "Ձեր հաղորդագրությունը"
+  },
+  "buttons": {
+    "send": "Ուղարկել"
+  }
+}

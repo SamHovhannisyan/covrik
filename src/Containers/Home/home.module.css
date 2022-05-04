@@ -1,0 +1,469 @@
+.sliderBtn {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/*.divMain {*/
+/*    background-image: url('homeBg.png');*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    height: 600px;*/
+/*    max-width: 100% !important;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.divOne {
+    height: 100%;
+    max-width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+    padding-left: 10%;
+    color: #fff;
+}
+
+.divOne p {
+    margin: 30px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.divOne button {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 7px 40px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.divIcons {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: #FFFFFF;
+    margin-left: 11rem;
+}
+
+.divIcons i {
+    font-size: 25px;
+    margin: 10px 0;
+    background: #FFFFFF;
+    color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 {
+    width: 100%;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.div2 {
+    border-right: 1px solid #6A6A6A !important;
+}
+
+.div2 p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div2 h4 {
+    margin: 10px 0;
+}
+
+/*////////////////////////////////////*/
+
+.div3_1 {
+    width: 100%;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.div3_1 {
+    border-right: none;
+}
+
+.div3_1 p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div3_1 h4 {
+    margin: 10px 0;
+}
+
+.div2_1 {
+    text-align: center;
+    margin: 5rem 0;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.div2_1 p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div2_1 h4 {
+    margin: 10px 0;
+}
+
+.div3 {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.div3 h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 34px;
+    color: #060606;
+}
+
+.div3 p {
+    /* width: 29rem; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #060606;
+    margin: 2rem 0;
+    /* text-align: center; */
+    max-width: 500px;
+}
+
+.err {
+    color: red;
+}
+
+.div3 button a {
+    color: #fff;
+    background: #060606;
+    border-radius: 5px;
+    padding: 8px 45px;
+    border: 1px solid #000000;
+}
+
+.div3 button a:hover {
+    color: black;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    transition: 0.8s;
+    border-radius: 5px;
+    padding: 8px 45px;
+}
+
+.sliderDiv {
+    width: 100%;
+    margin: 4rem 0;
+}
+
+.slider {
+    display: flex !important;
+    width: 100% !important;
+}
+
+.slider ul {
+    display: none !important;
+}
+
+.slider button {
+    display: flex !important;
+    color: #fff !important;
+    background: black !important;
+    position: relative !important;
+    right: 37px !important;
+}
+
+.slider div {
+    margin-top: 0 !important;
+}
+
+.slider button:first-child {
+    position: relative !important;
+    left: 75rem !important;
+}
+
+.divsSliderr {
+    width: 95%;
+    height: 15rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.divsSliderr img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer !important;
+}
+
+.divsSliderr h5 {
+    margin: 10px 0;
+    font-size: 21px;
+}
+
+.divsSliderr p {
+    font-size: 18px;
+}
+
+/* .imgDivContact {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+} */
+.imgDivContact img{
+    width: 100%;
+    height: 70vh;
+    border-radius: 5px;
+}
+
+.textDivContact {
+    z-index: 10;
+    position: relative;
+    left: 2rem;
+    bottom: 14rem;
+    color: #fff;
+}
+
+.textDivContact p {
+    margin: 20px 0;
+}
+
+.textDivContact h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.divContactUs {
+    display: flex;
+    align-items: center;
+    margin-top: 3.5rem;
+    width: 100%;
+}
+
+.divContactUs form {
+    width: 100%;
+}
+
+.divContactUs form input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgba(35, 31, 32, 0.2);;
+    margin: 10px 0;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.divContactUs form input::placeholder {
+    font-size: 18px;
+}
+
+
+.divContactUs form h2 {
+    font-size: 22px;
+    margin-bottom: 2rem;
+}
+
+.divContactUs form h4 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.divContactUs button {
+    display: block !important;
+    background: #000000;
+    color: #FFFFFF;
+    border: 2px solid #060606;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 8px 55px;
+    margin-top: 2rem;
+}
+
+.divContactUs button:hover {
+    display: block !important;
+    background: #FFFFFF;
+    color: black;
+    border: 2px solid #060606;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 8px 55px;
+    transition: 0.8s;
+    margin-top: 2rem;
+}
+
+.sliderFirs {
+    margin-top: 50px !important;
+}
+
+.sliderFirs ul {
+    display: none !important;
+}
+
+.sliderFirs button {
+    display: none !important;
+}
+
+.firstDiv {
+    text-align: center;
+    margin-bottom: 35px;
+    z-index: -22222222222222 !important;
+}
+
+.firstDiv h2 {
+    font-size: 25px;
+}
+
+.CarImgg {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 2rem;
+}
+
+.CarImgg img {
+    width: 100%;
+}
+
+
+@media(max-width:980px){
+    .firstDiv {
+    text-align: center;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    }
+    .div3 button {
+    color: #fff;
+    background: #060606;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 45px;
+    margin: 20px 0;
+}
+.sliderDiv {
+    margin: 0rem 0;
+}
+.div2_1 {
+    text-align: center;
+    margin: 1rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 0px solid rgba(0, 0, 0, 0.2);
+    border-right: 0px solid rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+}
+.div2 {
+
+    width: 100%;
+    text-align: center;
+    margin: 0rem 0;
+}
+.div3 h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 34px;
+    color: #060606;
+    text-align: center;
+}
+.div3 p {
+    /* width: 29rem; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #060606;
+    margin: 2rem 0;
+    text-align: center;
+    max-width: 500px;
+}
+.div3 button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #060606;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 45px;
+}
+.imgDivContact{
+    height: 100%;
+}
+.imgDivContact img{
+    width: 100%;
+    height: 95%;
+}
+.divContactUs {
+    display: flex;
+    align-items: center;
+    /* height: 50%; */
+    margin-top: 1rem;
+    /* padding-left: 4rem; */
+    width: 100%;
+    text-align: center;
+}
+
+.divContactUs form h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.divContactUs form h2 {
+    margin-bottom: 0.5rem;
+}
+    .divContactUs button {
+        display: block !important;
+        background: #000000;
+        color: #FFFFFF;
+        border: 2px solid #060606;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 8px 55px;
+        margin-top: 2rem;
+    }
+
+    .divContactUs button:hover {
+        display: block !important;
+        background: #FFFFFF;
+        color: black;
+        border: 2px solid #060606;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 8px 55px;
+        transition: 0.8s;
+        margin-top: 2rem;
+    }
+
+.textDivContact {
+    z-index: 10;
+    position: relative;
+    left: 0rem;
+    bottom: 14rem;
+    color: #fff;
+    padding:  0 0 0 10px;
+}
+
+}

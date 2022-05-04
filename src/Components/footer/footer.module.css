@@ -1,0 +1,260 @@
+.footerMain {
+    background: black;
+    /* height: 15rem; */
+    /* max-height: 15rem; */
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 0;
+    width: 100%;
+}
+
+.divIcons {
+    height: 100%;
+    display: flex;
+    align-items: end;
+    color: #FFFFFF;
+}
+
+.divIcons span a {
+    text-decoration: none;
+    font-size: 25px;
+    background: #FFFFFF;
+    color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divIcons a:last-child {
+    margin-left: 1rem;
+}
+
+.divIcons i:last-child {
+    margin-left: 15px;
+}
+
+.footerDiv {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #FFFFFF;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.footerDiv img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footerDiv2 {
+    color: #fff;
+}
+
+.footerDiv2 span a {
+    margin: 10px 0;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}
+
+.footerDiv3 {
+    color: #fff;
+    padding-left: 3rem;
+}
+
+.footerDiv4 {
+    color: #fff;
+}
+
+.footerDiv4 h5 {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.footerDiv5 {
+    color: #fff;
+}
+
+/*/////////////////////*/
+
+.footerDiv2 h5 {
+    margin-bottom: 20px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.footerDiv3 h5 {
+    margin-bottom: 20px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+}
+
+.footerDiv3 span a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Quicksand';
+    color: #fff;
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.footerDiv4 h5 {
+    margin-bottom: 20px;
+}
+
+.footerDiv5 h5 {
+    margin-bottom: 20px;
+}
+
+
+.footerDiv5 input {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background: none;
+    width: 18rem;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+    color: #FFFFFF;
+}
+
+.footerDiv5 input::placeholder {
+    color: #FFFFFF !important;
+}
+
+.footerDiv5 i {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer_block {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+@media (max-width: 550px) {
+    .footer_block {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerDiv img {
+        width: 50%;
+        height: 50%;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+    }
+
+    .footerDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        color: #FFFFFF;
+        margin: 20px 0;
+    }
+
+    .divIcons {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .footerDiv2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerDiv3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0 !important;
+    }
+
+    .divIcons {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .footerDiv4 {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .footerDiv5 {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .footerDiv5 input {
+        width: 10rem;
+    }
+
+    .footerDiv5 {
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 950px) {
+    .footerDiv5 input {
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        background: none;
+        width: 12rem;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #fff;
+        color: #FFFFFF;
+    }
+
+    .footerDiv3 {
+        padding-left: 0 !important;
+    }
+
+}

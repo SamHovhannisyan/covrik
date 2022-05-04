@@ -1,0 +1,310 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  outline: none !important;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input {
+  box-shadow: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  text-decoration: none !important;
+  border: 0;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: "M PLUS 1p", sans-serif;
+  /* background: #f8f8f8; */
+}
+
+.chatBot {
+  position: relative !important;
+  width: 95%;
+  display: flex;
+  justify-content: end;
+  z-index: 125855000 !important;
+}
+
+.chatBotButtonDIv {
+  position: relative !important;
+  width: 91.5%;
+  display: flex;
+  justify-content: end;
+}
+
+.chatBotButton {
+  display: flex;
+  justify-content: center;
+  z-index: 125855000 !important;
+  background: #6A6A6A;
+  width: 8rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 0.5rem 0;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.chatBotButton:hover {
+  display: flex;
+  justify-content: center;
+  z-index: 125855000 !important;
+  background: black;
+  width: 8rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 0.5rem 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.dPdbIW {
+  position: relative !important;
+  right: 0 !important;
+}
+
+.glfuN {
+  background: black !important;
+}
+
+.hQsUiY {
+  background: black !important;
+}
+
+.chatClose {
+  position: absolute;
+  z-index: 5555555555;
+  color: #fff;
+  top: 0.8rem !important;
+  right: 1% !important;
+  display: flex;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.slick-next {
+  right: 2rem !important;
+}
+
+.slick-prev {
+  left: 2rem !important;
+  z-index: 100 !important;
+}
+
+.slick-dots {
+  display: none !important;
+}
+
+.slick-list {
+  width: 100%;
+}
+
+.slick-next:before, .slick-prev:before {
+  font-size: 31px;
+  line-height: 1;
+  opacity: 75;
+  color: #ccc;
+}
+
+.navbar-nav {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 auto !important;
+  padding: 1rem 0;
+}
+
+.navbar-nav a {
+  font-family: 'Quicksand' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  color: #060606 !important;
+  padding: 0 2rem !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: black !important;
+  background: black !important;
+}
+
+.navbar-toggler {
+  color: #060606 !important;
+}
+
+.modal-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.75rem;
+  border-top: none !important;
+  border-bottom-right-radius: calc(0.3rem - 1px);
+  border-bottom-left-radius: calc(0.3rem - 1px);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: green !important;
+  border-color: green !important;
+  transition: 0.5s !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  transition: 0.8s !important;
+  background-color: #366f36 !important;
+  border-color: green !important;
+}
+
+.navbar-brand {
+  width: 15% !important;
+}
+
+@media(max-width: 921px) {
+  .navbar-nav {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+  .header_select__-qGY7 {
+    border-radius: 5px;
+    padding: 4px 0;
+    margin: 1rem 0 !important;
+    cursor: pointer;
+  }
+}

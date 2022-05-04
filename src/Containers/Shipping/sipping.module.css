@@ -1,0 +1,28 @@
+.title {
+    margin-top: 3rem;
+}
+
+.title h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text1 p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #060606;
+}
+
+.text2 p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #060606;
+}
+
+.text2 {
+    margin-bottom: 5rem;
+}

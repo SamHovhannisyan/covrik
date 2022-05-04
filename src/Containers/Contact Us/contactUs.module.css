@@ -1,0 +1,149 @@
+.logo {
+    width: 100%;
+    text-align: center;
+}
+
+.divContactUs {
+    display: flex;
+    align-items: center;
+    /* height: 50%; */
+    margin-top: 3rem;
+    /* padding-left: 4rem; */
+    width: 100%;
+}
+
+.divContactUs form {
+    width: 100%;
+}
+
+.divContactUs form input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgba(35, 31, 32, 0.2);;
+    margin: 10px 0;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.divContactUs form input::placeholder {
+    font-size: 18px;
+}
+
+
+.divContactUs form h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.divContactUs form h4 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.divContactUs button {
+    display: block !important;
+    background: #fff;
+    border: 2px solid #060606;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 8px 50px;
+    margin-top: 2rem;
+}
+
+.divContactUs button:hover {
+    display: block !important;
+    background: #666363;
+    border: 2px solid #060606;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 8px 50px;
+    margin-top: 2rem;
+    color: #FFFFFF;
+    transition: 0.8s;
+}
+
+.textDivContact {
+    z-index: 10;
+    position: relative;
+    left: 2rem;
+    bottom: 14rem;
+    color: #fff;
+}
+
+.err {
+    color: red;
+}
+
+.textDivContact p {
+    margin: 20px 0;
+}
+
+.divContactUs {
+    display: flex;
+    align-items: center;
+    /* height: 50%; */
+    margin-top: 3rem;
+    /* padding-left: 4rem; */
+    width: 100%;
+}
+
+.imgDivContact img {
+    width: 100%;
+    height: 70vh;
+    border-radius: 5px;
+}
+
+@media (max-width: 980px) {
+    .divContactUs {
+        display: flex;
+        align-items: center;
+        /* height: 50%; */
+        margin-top: 1rem;
+        /* padding-left: 4rem; */
+        width: 100%;
+        text-align: center;
+    }
+
+    .divContactUs form h4 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .divContactUs form h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    .divContactUs button {
+        display: block !important;
+        background: #fff;
+        border: 2px solid #060606;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 8px 50px;
+        margin-top: 2rem;
+    }
+
+    .divContactUs button:hover {
+        display: block !important;
+        background: #666363;
+        border: 2px solid #060606;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 8px 50px;
+        margin-top: 2rem;
+        color: #FFFFFF;
+        transition: 0.8s;
+    }
+
+    .textDivContact {
+        z-index: 10;
+        position: relative;
+        left: 0rem;
+        bottom: 14rem;
+        color: #fff;
+        padding: 0 0 0 10px;
+    }
+
+}
